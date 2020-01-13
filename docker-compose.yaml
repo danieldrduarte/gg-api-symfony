@@ -7,7 +7,7 @@ services:
 
   mailhog:
     image: mailhog/mailhog:latest
-    container_name: api-mailhog
+    container_name: ${PROJECT_NAME}-mailhog
     ports:
       - "8081:8025"
 
